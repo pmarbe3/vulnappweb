@@ -1,0 +1,17 @@
+# Nmap 7.94SVN scan initiated Mon Jun  9 12:05:15 2025 as: nmap -sn -oN /var/www/TFM/logs/nmap/nmap_20250609_110514.txt 192.168.64.0/24
+mass_dns: warning: Unable to determine any DNS servers. Reverse DNS is disabled. Try using --system-dns or specify valid servers with --dns-servers
+Nmap scan report for 192.168.64.1
+Host is up (0.00051s latency).
+MAC Address: 00:50:56:C0:00:00 (VMware)
+Nmap scan report for 192.168.64.131
+Host is up (0.0016s latency).
+MAC Address: 00:0C:29:38:91:20 (VMware)
+Nmap scan report for 192.168.64.132
+Host is up (0.0015s latency).
+MAC Address: 00:0C:29:2E:BE:2D (VMware)
+Nmap scan report for 192.168.64.254
+Host is up (0.0025s latency).
+MAC Address: 00:50:56:F4:38:E9 (VMware)
+Nmap scan report for 192.168.64.129
+Host is up.
+# Nmap done at Mon Jun  9 12:05:17 2025 -- 256 IP addresses (5 hosts up) scanned in 1.98 seconds

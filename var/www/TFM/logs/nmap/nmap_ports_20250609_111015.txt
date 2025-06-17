@@ -1,0 +1,66 @@
+# Nmap 7.94SVN scan initiated Mon Jun  9 12:10:16 2025 as: nmap -sS -sV -Pn -oN /var/www/TFM/logs/nmap/nmap_ports_20250609_111015.txt 192.168.64.132
+mass_dns: warning: Unable to determine any DNS servers. Reverse DNS is disabled. Try using --system-dns or specify valid servers with --dns-servers
+Nmap scan report for 192.168.64.132
+Host is up (0.00097s latency).
+Not shown: 965 closed tcp ports (reset)
+PORT      STATE SERVICE              VERSION
+21/tcp    open  ftp                  FileZilla ftpd
+53/tcp    open  domain               Simple DNS Plus
+88/tcp    open  kerberos-sec         Microsoft Windows Kerberos (server time: 2025-06-09 11:10:23Z)
+135/tcp   open  msrpc                Microsoft Windows RPC
+139/tcp   open  netbios-ssn          Microsoft Windows netbios-ssn
+389/tcp   open  ldap                 Microsoft Windows Active Directory LDAP (Domain: SantaPrisca.virtual, Site: Default-First-Site-Name)
+445/tcp   open  microsoft-ds         Microsoft Windows Server 2008 R2 - 2012 microsoft-ds (workgroup: SANTAPRISCA)
+464/tcp   open  kpasswd5?
+593/tcp   open  ncacn_http           Microsoft Windows RPC over HTTP 1.0
+636/tcp   open  tcpwrapped
+1801/tcp  open  msmq?
+2103/tcp  open  msrpc                Microsoft Windows RPC
+2105/tcp  open  msrpc                Microsoft Windows RPC
+2107/tcp  open  msrpc                Microsoft Windows RPC
+3268/tcp  open  ldap                 Microsoft Windows Active Directory LDAP (Domain: SantaPrisca.virtual, Site: Default-First-Site-Name)
+3269/tcp  open  tcpwrapped
+3306/tcp  open  mysql                MySQL (unauthorized)
+3389/tcp  open  ssl/ms-wbt-server?
+4848/tcp  open  ssl/appserv-http?
+7676/tcp  open  java-message-service Java Message Service 301
+8022/tcp  open  http                 Apache Tomcat/Coyote JSP engine 1.1
+8031/tcp  open  ssl/unknown
+8080/tcp  open  http                 Sun GlassFish Open Source Edition  4.0
+8181/tcp  open  ssl/intermapper?
+8383/tcp  open  http                 Apache httpd
+8443/tcp  open  ssl/https-alt?
+9200/tcp  open  wap-wsp?
+49152/tcp open  msrpc                Microsoft Windows RPC
+49153/tcp open  msrpc                Microsoft Windows RPC
+49154/tcp open  msrpc                Microsoft Windows RPC
+49155/tcp open  msrpc                Microsoft Windows RPC
+49157/tcp open  ncacn_http           Microsoft Windows RPC over HTTP 1.0
+49158/tcp open  msrpc                Microsoft Windows RPC
+49163/tcp open  msrpc                Microsoft Windows RPC
+49175/tcp open  msrpc                Microsoft Windows RPC
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port9200-TCP:V=7.94SVN%I=7%D=6/9%Time=6846C12A%P=x86_64-pc-linux-gnu%r(
+SF:GetRequest,18C,"HTTP/1\.0\x20200\x20OK\r\nContent-Type:\x20application/
+SF:json;\x20charset=UTF-8\r\nContent-Length:\x20309\r\n\r\n{\r\n\x20\x20\"
+SF:status\"\x20:\x20200,\r\n\x20\x20\"name\"\x20:\x20\"Magdalene\",\r\n\x2
+SF:0\x20\"version\"\x20:\x20{\r\n\x20\x20\x20\x20\"number\"\x20:\x20\"1\.1
+SF:\.1\",\r\n\x20\x20\x20\x20\"build_hash\"\x20:\x20\"f1585f096d3f3985e734
+SF:56debdc1a0745f512bbc\",\r\n\x20\x20\x20\x20\"build_timestamp\"\x20:\x20
+SF:\"2014-04-16T14:27:12Z\",\r\n\x20\x20\x20\x20\"build_snapshot\"\x20:\x2
+SF:0false,\r\n\x20\x20\x20\x20\"lucene_version\"\x20:\x20\"4\.7\"\r\n\x20\
+SF:x20},\r\n\x20\x20\"tagline\"\x20:\x20\"You\x20Know,\x20for\x20Search\"\
+SF:r\n}\n")%r(HTTPOptions,4F,"HTTP/1\.0\x20200\x20OK\r\nContent-Type:\x20t
+SF:ext/plain;\x20charset=UTF-8\r\nContent-Length:\x200\r\n\r\n")%r(RTSPReq
+SF:uest,4F,"HTTP/1\.1\x20200\x20OK\r\nContent-Type:\x20text/plain;\x20char
+SF:set=UTF-8\r\nContent-Length:\x200\r\n\r\n")%r(FourOhFourRequest,A9,"HTT
+SF:P/1\.0\x20400\x20Bad\x20Request\r\nContent-Type:\x20text/plain;\x20char
+SF:set=UTF-8\r\nContent-Length:\x2080\r\n\r\nNo\x20handler\x20found\x20for
+SF:\x20uri\x20\[/nice%20ports%2C/Tri%6Eity\.txt%2ebak\]\x20and\x20method\x
+SF:20\[GET\]")%r(SIPOptions,4F,"HTTP/1\.1\x20200\x20OK\r\nContent-Type:\x2
+SF:0text/plain;\x20charset=UTF-8\r\nContent-Length:\x200\r\n\r\n");
+MAC Address: 00:0C:29:2E:BE:2D (VMware)
+Service Info: Host: ENIGMA; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Jun  9 12:12:15 2025 -- 1 IP address (1 host up) scanned in 119.73 seconds

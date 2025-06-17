@@ -1,0 +1,4 @@
+# Nmap 7.94SVN scan initiated Wed Apr 23 16:19:55 2025 as: nmap -T4 -sn --max-retries 1 --host-timeout 2s -oN salida.txt -vvv 172.17.0.1/32
+Nmap scan report for 172.17.0.1
+Host is up, received syn-ack (0.00028s latency).
+# Nmap done at Wed Apr 23 16:19:55 2025 -- 1 IP address (1 host up) scanned in 0.09 seconds

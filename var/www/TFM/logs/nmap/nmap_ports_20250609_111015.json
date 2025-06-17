@@ -1,0 +1,35 @@
+{"ip":"192.168.64.132","puerto":"21","estado":"open","servicio":"ftp","version":"FileZilla ftpd","timestamp":"2025-06-09T11:12:15+0000","tool":"NMAP"}
+{"ip":"192.168.64.132","puerto":"53","estado":"open","servicio":"domain","version":"Simple DNS Plus","timestamp":"2025-06-09T11:12:15+0000","tool":"NMAP"}
+{"ip":"192.168.64.132","puerto":"88","estado":"open","servicio":"kerberos-sec","version":"Microsoft Windows Kerberos (server time: 2025-06-09 11:10:23Z)","timestamp":"2025-06-09T11:12:15+0000","tool":"NMAP"}
+{"ip":"192.168.64.132","puerto":"135","estado":"open","servicio":"msrpc","version":"Microsoft Windows RPC","timestamp":"2025-06-09T11:12:15+0000","tool":"NMAP"}
+{"ip":"192.168.64.132","puerto":"139","estado":"open","servicio":"netbios-ssn","version":"Microsoft Windows netbios-ssn","timestamp":"2025-06-09T11:12:15+0000","tool":"NMAP"}
+{"ip":"192.168.64.132","puerto":"389","estado":"open","servicio":"ldap","version":"Microsoft Windows Active Directory LDAP (Domain: SantaPrisca.virtual, Site: Default-First-Site-Name)","timestamp":"2025-06-09T11:12:15+0000","tool":"NMAP"}
+{"ip":"192.168.64.132","puerto":"445","estado":"open","servicio":"microsoft-ds","version":"Microsoft Windows Server 2008 R2 - 2012 microsoft-ds (workgroup: SANTAPRISCA)","timestamp":"2025-06-09T11:12:15+0000","tool":"NMAP"}
+{"ip":"192.168.64.132","puerto":"464","estado":"open","servicio":"kpasswd5?","version":"","timestamp":"2025-06-09T11:12:15+0000","tool":"NMAP"}
+{"ip":"192.168.64.132","puerto":"593","estado":"open","servicio":"ncacn_http","version":"Microsoft Windows RPC over HTTP 1.0","timestamp":"2025-06-09T11:12:15+0000","tool":"NMAP"}
+{"ip":"192.168.64.132","puerto":"636","estado":"open","servicio":"tcpwrapped","version":"","timestamp":"2025-06-09T11:12:15+0000","tool":"NMAP"}
+{"ip":"192.168.64.132","puerto":"1801","estado":"open","servicio":"msmq?","version":"","timestamp":"2025-06-09T11:12:15+0000","tool":"NMAP"}
+{"ip":"192.168.64.132","puerto":"2103","estado":"open","servicio":"msrpc","version":"Microsoft Windows RPC","timestamp":"2025-06-09T11:12:15+0000","tool":"NMAP"}
+{"ip":"192.168.64.132","puerto":"2105","estado":"open","servicio":"msrpc","version":"Microsoft Windows RPC","timestamp":"2025-06-09T11:12:15+0000","tool":"NMAP"}
+{"ip":"192.168.64.132","puerto":"2107","estado":"open","servicio":"msrpc","version":"Microsoft Windows RPC","timestamp":"2025-06-09T11:12:15+0000","tool":"NMAP"}
+{"ip":"192.168.64.132","puerto":"3268","estado":"open","servicio":"ldap","version":"Microsoft Windows Active Directory LDAP (Domain: SantaPrisca.virtual, Site: Default-First-Site-Name)","timestamp":"2025-06-09T11:12:15+0000","tool":"NMAP"}
+{"ip":"192.168.64.132","puerto":"3269","estado":"open","servicio":"tcpwrapped","version":"","timestamp":"2025-06-09T11:12:15+0000","tool":"NMAP"}
+{"ip":"192.168.64.132","puerto":"3306","estado":"open","servicio":"mysql","version":"MySQL (unauthorized)","timestamp":"2025-06-09T11:12:15+0000","tool":"NMAP"}
+{"ip":"192.168.64.132","puerto":"3389","estado":"open","servicio":"ssl\/ms-wbt-server?","version":"","timestamp":"2025-06-09T11:12:15+0000","tool":"NMAP"}
+{"ip":"192.168.64.132","puerto":"4848","estado":"open","servicio":"ssl\/appserv-http?","version":"","timestamp":"2025-06-09T11:12:15+0000","tool":"NMAP"}
+{"ip":"192.168.64.132","puerto":"7676","estado":"open","servicio":"java-message-service","version":"Java Message Service 301","timestamp":"2025-06-09T11:12:15+0000","tool":"NMAP"}
+{"ip":"192.168.64.132","puerto":"8022","estado":"open","servicio":"http","version":"Apache Tomcat\/Coyote JSP engine 1.1","timestamp":"2025-06-09T11:12:15+0000","tool":"NMAP"}
+{"ip":"192.168.64.132","puerto":"8031","estado":"open","servicio":"ssl\/unknown","version":"","timestamp":"2025-06-09T11:12:15+0000","tool":"NMAP"}
+{"ip":"192.168.64.132","puerto":"8080","estado":"open","servicio":"http","version":"Sun GlassFish Open Source Edition  4.0","timestamp":"2025-06-09T11:12:15+0000","tool":"NMAP"}
+{"ip":"192.168.64.132","puerto":"8181","estado":"open","servicio":"ssl\/intermapper?","version":"","timestamp":"2025-06-09T11:12:15+0000","tool":"NMAP"}
+{"ip":"192.168.64.132","puerto":"8383","estado":"open","servicio":"http","version":"Apache httpd","timestamp":"2025-06-09T11:12:15+0000","tool":"NMAP"}
+{"ip":"192.168.64.132","puerto":"8443","estado":"open","servicio":"ssl\/https-alt?","version":"","timestamp":"2025-06-09T11:12:15+0000","tool":"NMAP"}
+{"ip":"192.168.64.132","puerto":"9200","estado":"open","servicio":"wap-wsp?","version":"","timestamp":"2025-06-09T11:12:15+0000","tool":"NMAP"}
+{"ip":"192.168.64.132","puerto":"49152","estado":"open","servicio":"msrpc","version":"Microsoft Windows RPC","timestamp":"2025-06-09T11:12:15+0000","tool":"NMAP"}
+{"ip":"192.168.64.132","puerto":"49153","estado":"open","servicio":"msrpc","version":"Microsoft Windows RPC","timestamp":"2025-06-09T11:12:15+0000","tool":"NMAP"}
+{"ip":"192.168.64.132","puerto":"49154","estado":"open","servicio":"msrpc","version":"Microsoft Windows RPC","timestamp":"2025-06-09T11:12:15+0000","tool":"NMAP"}
+{"ip":"192.168.64.132","puerto":"49155","estado":"open","servicio":"msrpc","version":"Microsoft Windows RPC","timestamp":"2025-06-09T11:12:15+0000","tool":"NMAP"}
+{"ip":"192.168.64.132","puerto":"49157","estado":"open","servicio":"ncacn_http","version":"Microsoft Windows RPC over HTTP 1.0","timestamp":"2025-06-09T11:12:15+0000","tool":"NMAP"}
+{"ip":"192.168.64.132","puerto":"49158","estado":"open","servicio":"msrpc","version":"Microsoft Windows RPC","timestamp":"2025-06-09T11:12:15+0000","tool":"NMAP"}
+{"ip":"192.168.64.132","puerto":"49163","estado":"open","servicio":"msrpc","version":"Microsoft Windows RPC","timestamp":"2025-06-09T11:12:15+0000","tool":"NMAP"}
+{"ip":"192.168.64.132","puerto":"49175","estado":"open","servicio":"msrpc","version":"Microsoft Windows RPC","timestamp":"2025-06-09T11:12:15+0000","tool":"NMAP"}
